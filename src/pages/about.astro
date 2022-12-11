@@ -8,7 +8,7 @@ import Nav from "../components/Nav.astro";
   <head>
     <MainHead
       title="About | Wilson Chen"
-      description="About Wilson Chen Lorem Ipsum"
+      description="About Wilson Chen page"
     />
     <style>
       .heroImg {
@@ -44,43 +44,104 @@ import Nav from "../components/Nav.astro";
         />
       </div>
       <div class="bio wrapper">
+        <div class="flex flex-col">
+          <div>
+            <p>
+              As of writing this I am currently 26 years old and a Salinas
+              native who recently received their certificate in Web Development
+              at San Jose State University powered by Fullstack Academy. I first
+              stepped into coding when I signed up for the full-time Full Stack
+              Javascript Web Development Immersive course. It was an amazing
+              journey and I am glad to have met the people I have met during
+              this time, the program was an incredible experience and I hope to
+              find even more enrichment as I continue to pursue software
+              development as a career.
+            </p>
+          </div>
+
+          <div class="flex flex-row">
+            <p>
+              I was previously employed as a Tesla Fitter Technician working on
+              the Model S and X assembly line at the Tesla Factory located in
+              Fremont, California. I'm self-driven with accomplishments leading
+              team-based tasks and demonstrated success developing and executing
+              plans in a fast paced high pressure environment. Looking forward
+              to continuous learning and improving skills that can hopefully
+              make a positive impact. The main goal is to be a part of a
+              community that gives me the opportunity to tackle challenges,
+              contribute to innovative ideas, and to grow as a whole.
+            </p>
+            <img
+              class="picture h-72 w-56 ml-4 rounded-lg p-2 bg-blue-200"
+              alt="tesla wilson"
+              src="https://res.cloudinary.com/dsvltch46/image/upload/v1670793194/Astro%20Portfolio/Images/tesla_me_rtpsij.jpg"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <img
+            class="picture h-72 w-56 mr-4 rounded-lg p-2 bg-red-200"
+            alt="mom shrine photo"
+            src="https://res.cloudinary.com/dsvltch46/image/upload/v1670795478/Astro%20Portfolio/Images/mom_lo09qh.jpg"
+          />
+          <p>
+            My family raised me along with my two siblings working at a Chinese
+            restaurant twelve hours a day, seven days a week. While not in the
+            best financial situation, my mom would always like to spend her free
+            time trying a bunch of new foods she never had before with the tip
+            money she had earned. Sometime after she would always try to remake
+            the dish if she saw that we really liked it and as a child I would
+            always see her smile while watching us eat her food and that
+            resonated with me as I grew up.
+          </p>
+        </div>
+        <div class="flex">
+          <div>
+            <p>
+              I only started to cook as a hobby after my mom passed away due to
+              cancer as a way to connect with her again. I have made a variety
+              of things over the years and they have gotten more intricate and
+              inspired as it remains as something I am passionate about.
+            </p>
+            <p>
+              The photo on the right was my attempt at the Squirtle Squad from
+              Pokemon but as turtle shaped bread with a snickerdoodle cookie
+              layer on top. With breadmaking there is this level of complexity
+              that comes from technique and patience. I find myself comparing it
+              to software development often as both can be seen as arduous
+              processes.
+            </p>
+          </div>
+
+          <img
+            class="picture h-72 w-56 ml-4 rounded-lg p-2 bg-lime-200"
+            alt="squirtle bread"
+            src="https://res.cloudinary.com/dsvltch46/image/upload/v1670793204/Astro%20Portfolio/Images/squirtle_bread_gizwpo.jpg"
+          />
+        </div>
+
         <p>
-          Cream cheese say cheese stinking bishop. Brie fondue hard cheese
-          bocconcini feta camembert de normandie babybel airedale. Red leicester
-          swiss manchego mascarpone pepper jack airedale fromage frais ricotta.
-          Cheese and biscuits cauliflower cheese boursin.
+          Currently looking for a job and to continue to improve my skills that
+          can hopefully make a positive impact. The main goal is to be part of a
+          community that gives me the opportunity to tackle challenges and to
+          contribute to innovative ideas.
         </p>
         <p>
-          Pepper jack cheesy feet cheese slices. Halloumi port-salut queso
-          caerphilly roquefort cheese slices cheesy feet rubber cheese. Cheese
-          slices smelly cheese pecorino macaroni cheese feta blue castello
-          roquefort edam. Babybel pepper jack airedale cheddar fromage frais
-          manchego.
+          Please feel free to contact me with any questions regarding employment
+          or even any general questions!
         </p>
-        <p>
-          Cauliflower cheese lancashire macaroni cheese. Cheeseburger babybel
-          cheese on toast airedale cauliflower cheese who moved my cheese
-          roquefort paneer. Stinking bishop cheddar taleggio port-salut
-          port-salut stinking bishop cheesy grin babybel. Blue castello feta
-          everyone loves brie.
-        </p>
-        <p>
-          Goat squirty cheese cut the cheese. Cheese and wine cheddar fondue
-          airedale cottage cheese camembert de normandie feta babybel. Rubber
-          cheese melted cheese pecorino port-salut fondue gouda cheese on toast
-          cheesy feet. Feta edam everyone loves cheese strings camembert de
-          normandie.
-        </p>
-        <p>
-          Caerphilly monterey jack goat. Squirty cheese cheesy grin hard cheese
-          cheese strings cheese and biscuits croque monsieur smelly cheese
-          danish fontina. Swiss cheese triangles everyone loves mascarpone
-          cheese on toast who moved my cheese lancashire cheeseburger. Fromage
-          frais fromage frais cheese and biscuits stinking bishop cauliflower
-          cheese.
-        </p>
+        <a
+          href="https://docs.google.com/document/d/1d9_zG19ouptrHEkp6QyX9Fp_ii3p8vj5yQQy0XmNKmE/edit?usp=share_link"
+        >
+          My Resume
+        </a>
       </div>
     </div>
     <Footer />
+    <style>
+      .picture {
+        border: 5px solid black;
+      }
+    </style>
   </body>
 </html>

@@ -4,6 +4,8 @@ import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import PortfolioPreview from "../components/PortfolioPreview.astro";
+import Education from "../components/Education.astro";
+import Experience from "../components/Experience.astro";
 import type { Project } from "../types";
 
 // Data Fetching: List all Markdown posts in the repo.
@@ -207,14 +209,17 @@ const featuredProject = projects[0]!;
         width="1600"
         height="1131"
         class="img"
-        src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-        srcset="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w"
+        src="https://res.cloudinary.com/dsvltch46/image/upload/v1670724356/Astro%20Portfolio/Images/Capture_v30dqg.png?w=1200&q=75"
+        srcset="https://res.cloudinary.com/dsvltch46/image/upload/v1670724356/Astro%20Portfolio/Images/Capture_v30dqg.png?w=1200&q=75 800w,
+		https://res.cloudinary.com/dsvltch46/image/upload/v1670724356/Astro%20Portfolio/Images/Capture_v30dqg.png?w=1200&q=75 1200w,
+		https://res.cloudinary.com/dsvltch46/image/upload/v1670724356/Astro%20Portfolio/Images/Capture_v30dqg.png?w=1600&q=75 1600w,
+		https://res.cloudinary.com/dsvltch46/image/upload/v1670724356/Astro%20Portfolio/Images/Capture_v30dqg.png?w=2400&q=75 2400w"
         sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
       />
       <div class="gradient"></div>
       <div class="gradient2"></div>
       <div class="overlay">
-        <h1 class="title">
+        <h1 class="title text-slate-100">
           <small class="subtitle">The personal site of</small>Wilson Chen
         </h1>
         <div class="roles">
@@ -234,26 +239,37 @@ const featuredProject = projects[0]!;
     <main class="wrapper">
       <div class="grid">
         <div class="section">
-          <h3 class="sectionTitle">Selected Work</h3>
+          <h3 class="sectionTitle">My Projects</h3>
           <PortfolioPreview project={featuredProject} />
           <div class="buttonContainer">
             <a href="/projects/" class="button">View All</a>
           </div>
         </div>
         <div class="section">
+          <h3 class="sectionTitle">Education</h3>
+          <Education />
+        </div>
+        <div class="section">
+          <h3 class="sectionTitle">Experience</h3>
+          <Experience />
+        </div>
+        <div class="section">
           <h3 class="sectionTitle">About me</h3>
           <p class="bio">
-            <span>Hello!</span> My name is Wilson and this is my website made through
-            <a
-              href="https://github.com/withastro/astro"
-              target="_blank"
-              rel="nofollow"
-            >
-              Astro</a
-            >, a new way to build static sites.
+            <span>Hello!</span>
+            <div class="flex flex-row">
+              My name is Wilson and this is my portfolio site made with
+              Javascript, Typescript, Express, React, Tailwind, and Astro. <div>
+                <img
+                  class="rounded-full"
+                  alt="Wilson"
+                  src="https://res.cloudinary.com/dsvltch46/image/upload/v1670728735/Astro%20Portfolio/Images/wilson_pfp_vvbx6r.jpg"
+                />
+              </div>
+            </div>
           </p>
           <p>
-            <a href="/about">Read more</a>
+            <a class="text-2xl" href="/about">Read more</a>
           </p>
         </div>
       </div>

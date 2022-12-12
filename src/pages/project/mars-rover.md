@@ -1,23 +1,32 @@
 ---
 layout: ../../layouts/project.astro
-title: Mars Rover
+title: Real Fake Clothes
 client: Self
-publishDate: 2020-03-02 00:00:00
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=75
+publishDate: 2022-12-09 00:00:00
+img: https://res.cloudinary.com/dsvltch46/image/upload/v1670824839/Astro%20Portfolio/Images/graceShopper_g1zlxf.png?fit=crop&w=1400&h=700&q=75
 description: |
-  We built an unofficial Mars Rover Landing site in celebration of NASA’s Perseverance Rover.
+  A fully interactive E-commerce website that allows users to exchange currency for a variety of clothing.
 tags:
-  - design
-  - dev
-  - branding
+  - Node.js
+  - Express
+  - PostgreSQL
+  - React
+  - Material UI
+  - Tailwind
+  - Prisma
+  - Easy-Peasy
 ---
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+Real Fake Clothes is my Capstone Project for the 2209 Web Development Bootcamp. With a group of 3, we made a fully interactive E-commerce website that sells clothes that can be sorted by category.
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+Users can register and log in to access their own cart created during the register process and can begin adding items to their cart. Users are also protected with a JSON web token and a cookie secret placed in the backend.
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+The cart functionality does not allow for duplicates as an alert will display once the user clicks the same item already in the cart, the user however may continue shopping as the error will fade. The cart also comes with its very own page that allows users to update the quantity. If the quantity goes below 1 the item gets removed, but users can also simply push the remove button to remove it as well.
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
+The site also comes with a checkout form for users to enter in their card information when they are ready to confirm the purchase.
 
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+The site is styled with a mixture of Material UI and Tailwind where the data is stored in PostgreSQL and condensed with Prisma and Easy-Peasy.
+
+<div>
+<a href="https://github.com/LunchBoxBandits/graceShopper" >Github</a>
+</div>

@@ -14,7 +14,7 @@ tags:
 
 Coffee Clicker is a fun coffee themed clicker game that introduces setState. The user performs a click to increment the points, in this case coffee. By unlocking new features as the clicking continues, the user gets to passively earn coffee as well.
 
-<div>
-<a href="https://github.com/Wilsonrchen/coffeeClicker">Github</a>
-<a href="https://wilson-chen-project-coffee-clicker.netlify.app/">Netlify</a>
+<div className="mt-2">
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://github.com/Wilsonrchen/coffeeClicker">Github</a>
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://wilson-chen-project-coffee-clicker.netlify.app/">Deployed Site</a>
 </div>

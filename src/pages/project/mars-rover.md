@@ -27,6 +27,7 @@ The site also comes with a checkout form for users to enter in their card inform
 
 The site is styled with a mixture of Material UI and Tailwind where the data is stored in PostgreSQL and condensed with Prisma and Easy-Peasy.
 
-<div>
-<a href="https://github.com/LunchBoxBandits/graceShopper" >Github</a>
+<div className="mt-2" >
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://github.com/LunchBoxBandits/graceShopper" >Github</a>
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://ancient-sea-4440.fly.dev/">Deployed Site</a>
 </div>

@@ -17,7 +17,7 @@ tags:
 Fitness Tracker is a very simple single-page web application meant for users to be able to track their workouts along with logging and updating new routines.
 Fitness Tracker utilizes the MERN stack, has a JSON web token and cookie secret to protect user info. The edit feature is also made to only be available to the user who made the post.
 
-<div>
-<a href="https://github.com/Uduru10/Fitness-Trackr">Github</a>
-
+<div className="mt-2">
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://github.com/Uduru10/Fitness-Trackr">Github</a>
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://long-voice-6107.fly.dev/">Deployed Site</a>
 </div>

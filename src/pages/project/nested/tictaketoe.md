@@ -15,7 +15,7 @@ tags:
 This Tictaktoe game is one of our first projects after learning about Javascript. It comes with a win, lose, draw functionality and some computer AI as well. You can also just play with a friend locally!
 Made with Javascript, HTML, and CSS.
 
-<div>
-<a href="https://github.com/Wilsonrchen/Tiktaktoe">Github </a>
-<a href="https://wilson-chen-project-06-tictaktoe.netlify.app/">Netlify</a>
+<div className="mt-2">
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://github.com/Wilsonrchen/Tiktaktoe">Github</a>
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://wilson-chen-project-06-tictaktoe.netlify.app/">Deployed Site</a>
 </div>

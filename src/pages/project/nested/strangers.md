@@ -15,7 +15,7 @@ tags:
 
 StrangersThings is the first project I did working with a partner. I learned about merge conflicts and how to work on different branches to not cause said merge conflicts. The site comes with a functional search bar and a profile page that shows you private messages sent by other users based on your posts.
 
-<div>
-<a href="https://github.com/Wilsonrchen/strangersThings">Github</a>
-<a href="https://milly-and-wilson-strangers-things.netlify.app">Netlify</a>
+<div className="mt-2">
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://github.com/Wilsonrchen/strangersThings">Github</a>
+<a className="border p-2 rounded-full items-center hover:text-cyan-400" href="https://milly-and-wilson-strangers-things.netlify.app">Deployed Site</a>
 </div>

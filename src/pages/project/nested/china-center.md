@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/project.astro
-title: Real Fake Clothes
+title: China Center Restaurant
 client: Self
 publishDate: 2022-12-09 00:00:00
 img: https://res.cloudinary.com/dsvltch46/image/upload/v1682135495/Astro%20Portfolio/Images/china_center_restaurant_menu_page_bhsypz.png

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../../layouts/project.astro
 title: Real Fake Clothes
 client: Self
 publishDate: 2022-12-09 00:00:00
